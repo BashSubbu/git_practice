@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 /**
  * Product service implementation.
  * 
+ * 
  */
 @Service
 public class ProductServiceImpl implements ProductService {
@@ -15,7 +16,7 @@ public class ProductServiceImpl implements ProductService {
      private ProductRepository productRepository;
 
     
-
+     src/main/java/com/ensat/services/ProductServiceImpl.java
     @Override
     public Iterable<Product> listAllProducts() {
         return productRepository.findAll();
