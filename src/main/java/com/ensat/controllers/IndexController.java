@@ -13,5 +13,5 @@ public class IndexController {
     String index() {
         return "index";
     }
-
+    // YAL-10
 }
